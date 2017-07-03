@@ -8,7 +8,6 @@ import pandas as pd
 
 __author__ = 'Wort John'
 __date__ = '2017-06-13'
-__email__ = '1004794592@qq.com'
 
 def output_result(anno_result, opf):
     anno_result.to_csv(opf, sep='\t', index=False)
